@@ -7,27 +7,3 @@ p {
    margin: auto;
    padding: 20px;
 }
-
-@media (min-width: 1025px) {
-   p {
-      background-color: aqua;
-   }
-}
-
-@media (min-width: 769px) and (max-width: 1024px) {
-   p {
-      background-color: pink;
-   }
-}
-
-@media (min-width: 426px) and (max-width: 768px) {
-   p {
-      background-color: blue;
-   }
-}
-
-@media (max-width: 425px) {
-   p {
-      background-color: yellow;
-   }
-}
