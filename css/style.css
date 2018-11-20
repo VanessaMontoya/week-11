@@ -1,0 +1,29 @@
+body {
+   color: #222;
+   font-family: 'Lato', sans-serif;
+}
+
+p {
+   margin: auto;
+   width: 542px;
+}
+
+@media screen and (max-width: 768px) {
+   p {
+      width: 440px;
+   }
+}
+
+@media screen and (max-width: 526px) {
+   /*
+      To calculate the width for a fluid experience, divide
+      previous width (440px) by breakpoint (526px):
+
+      440
+      --- = .8365
+      526
+   */
+   p {
+      width: 83.65%
+   }
+}
