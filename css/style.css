@@ -5,17 +5,29 @@ body {
 
 p {
    margin: auto;
-   width: 542px;
+   padding: 20px;
 }
 
-@media screen and (max-width: 768px) {
+@media (min-width: 1025px) {
    p {
-      width: 440px;
+      background-color: aqua;
    }
 }
 
-@media screen and (max-width: 526px) {
+@media (min-width: 769px) and (max-width: 1024px) {
    p {
-      width: 83.65%
+      background-color: pink;
+   }
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+   p {
+      background-color: blue;
+   }
+}
+
+@media (max-width: 425px) {
+   p {
+      background-color: yellow;
    }
 }
