@@ -2,17 +2,6 @@ body {
    font-family: Archivo, sans-serif;
 }
 
-#container {
-   margin: auto;
-   width: 1000px;
-}
-
-.image-container {
-   position: relative;
-   float: left;
-   width: 25%;
-}
-
 p {
    text-align: center;
    margin: 0;
@@ -26,6 +15,17 @@ p {
 
 img {
    width: 100%;
+}
+
+#container {
+   margin: auto;
+   width: 1000px;
+}
+
+.image-container {
+   position: relative;
+   float: left;
+   width: 25%;
 }
 
 @media (max-width: 1080px) {
